@@ -549,7 +549,7 @@ class CharPicPlugin(Star):
                 duration_arg = frame_durations
 
             output = io.BytesIO()
-            imageio.mimsave(output, uniform_frames, format="gif", duration=duration_arg)
+            imageio.mimsave(output, uniform_frames, format="gif", duration=duration_arg, loop=0)
             result_bytes = output.getvalue()
             logger.info(
                 f"{img_format}字符画生成成功，输出格式: GIF，大小: {len(result_bytes)} bytes，帧尺寸 {target_size[0]}x{target_size[1]}"
