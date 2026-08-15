@@ -1,5 +1,7 @@
 # AstrBot 字符画生成器插件
 
+__支持图片和gif
+
 这是一个将图片转换为ASCII艺术字符画的AstrBot插件，移植自 nonebot_plugin_charpic。
 
 ## 功能特性
