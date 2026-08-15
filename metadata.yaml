@@ -1,4 +1,5 @@
-name: 字符画生成器
+name: astrbot_plugin_char_draw
+display_name: 字符画生成器
 desc: 将图片和gif转换为ASCII艺术字符画的插件，支持静态图片和动图（GIF/APNG/WebP/MNG）。
 version: v1.0.0 
 author:  kamicry
